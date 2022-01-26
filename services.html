@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Construction website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+          <nav>
+              <a href="index.html">
+                  <img src="images/logo.PNG">
+              </a>
+
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick= "hideMenu()"></i>
+                  <ul>
+                      <li> <a href="index.html">HOME</a></li>
+                      <li> <a href="about.html">ABOUT US</a></li>
+                      <li> <a href="services.html">SERVICES</a></li>
+                      <li> <a href="blog.html">BLOG</a></li>
+                      <li> <a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick= "showMenu()"></i>
+          </nav>
+          <h1>Our Services</h1>
+      </section>
+
+      <!-------services ----->
+      <section class="testimonials">
+        <div class="row">
+            <div class="testimonials-col">
+                <div>
+                    <h3>Facilities Managment Services </h3>
+                    <p>The maintenance of mechanical and electrical services in any building is a significant overhead, making it essential to maintain installed equipment cost effectively, without compromising the building’s ability to function.
+                        Our experience of managing ‘in house’ maintenance staff and specialist contractors covering a range of building types means we can take care of the entire process for you, with remote management tools allowing us to monitor plant and equipment performance and make necessary adjustments.</p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>  
+            </div>
+
+            <div class="testimonials-col">
+              <div>
+                  <h3>Rental & Resale Services</h3>
+                  <p>Tint Services provides all the necessary property related services to its customers. These are of immense value to the property owners, as it is difficult for them to spare time for such activities. The lack of knowledge of owners on rules and regulations of sale, re-sale and renting do not place them in difficult situation as Tint Services takes care of such things.</p>
+                  <br>
+                  <br>
+                  <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+              </div>  
+          </div>
+
+          <div class="testimonials-col">
+            <div>
+                <h3>Security Services</h3>
+                <p>We are committed to offer Reliable, Cost Effective Security Services to our customers. Developing and motivating our personnel to give their best and dedicated service will fulfill this commitment.
+                    <br>
+                    ‣ Monitoring of CCTV <br>
+                    ‣ Entry control points <br>
+                    ‣ Vehicle control points <br>
+                    ‣ Physical security barrier against theft in the workplace and business <br>
+                    ‣ Bodyguard</p>
+                <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+            </div>  
+        </div>
+        </div>
+    </section>
+
+
+      <!--------Footer------>
+      <section class="footer">
+          <h4>About us</h4>
+          <p> For more inforamtion about us get-in-touch with us in the followings</p>
+
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Keerthika Shanmuganandam</p>
+      </section>
+
+
+
+      <!--------Javascript for Toggle Menu------>
+
+      <script> 
+
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+              navLinks.style.right ="0";
+          }
+
+          function hideMenu(){
+              navLinks.style.right ="-200px";
+          }
+
+
+      </script>
+    
+</body>
+</html>

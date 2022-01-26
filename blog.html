@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Construction website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+          <nav>
+              <a href="index.html">
+                  <img src="images/logo.PNG">
+              </a>
+
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick= "hideMenu()"></i>
+                  <ul>
+                      <li> <a href="index.html">HOME</a></li>
+                      <li> <a href="about.html">ABOUT US</a></li>
+                      <li> <a href="services.html">SERVICES</a></li>
+                      <li> <a href="blog.html">BLOG</a></li>
+                      <li> <a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick= "showMenu()"></i>
+          </nav>
+          <h1>Blogs</h1>
+      </section>
+
+      <!--------blog page content----------------->
+      <section class="blog-content">
+          <div class="row">
+
+            <div class="blog-left">
+                <img src="images/blog1.jpg">
+                    <div>
+                        <h3>
+                            Implosion or 10 Sec demolition: a technique that involves controlled demolition of large urban structures</h3>
+                        <p> For the first time in Chennai, a building is being demolished using the 'Implosion technique' (use of controlled explosion). As the ill-fated residential tower at Moulivakkam bites the dust today, it is highly interesting to note how the entire crew goes about planning the spectacular demolition or implosion, which has rather become one of the biggest demolitions of the residential structures in the recent times. 
+                             <br> 
+                             <br>  This classic controlled technique brings the entire structure down into its footprint causing the structure to break inward from inside to outside and bottom to top. Timing and a detailed structural analysis is highly critical to any successful implosion. <br>
+                              </p>
+                    </div>  
+                </div>
+
+                <div class="blog-left">
+                    <img src="images/blog2.jpg">
+                        <div>
+                            <h3> 10 ADVANTAGES of buying a home built by TINT, furnished by IKEA</h3>
+                            <p>  Home-buying is not a mere transactional process. It takes time and effort. It is a journey in itself - from site visits to arranging for funds to checking all documentation to watching your home being built brick-by-brick, to finally being able to move in on an auspicious date. For the many of us moving into our first home, this phase is one we will reminisce about for years to come. Especially when someone compliments our choice of furniture or choice of paint. <br>
+                                <br>
+
+                                All at no additional cost. What's more, we'll also help you pick the right color palette for your paint, based on the style you choose, so your home will truly look like a work of art.</p>
+                        </div>  
+                    </div>
+
+                    <div class="blog-left">
+                        <img src="images/blog3.jpg">
+                            <div>
+                                <h3> 4 Important Things to Consider Before Investing In A Residential Plot</h3>
+                                <p> 
+                                    1. Pick a good location: Plots of land that are removed from the developed parts of the city can be luring because of the affordability. <br>
+                                    <br>
+
+                                    2. Be sure of the size: Residential plots of land should be invested in only after you have carefully understood your requirements for the present day and the future. <br>
+                                    <br>                                    
+                                    3. Verify the documents: Protect your rights and avoid a property fraud by ensuring that the transaction is a lawful and hassle-free one.  <br>
+                                    <br>
+                                    
+                                    4. Go with a reputed builder: Ensure that you invest in a plot on sale by a reputed real estate builder. This is the best way to avoid property frauds and any potential construction roadblocks.
+                                    </p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                        <br>
+                        <br>
+
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                             
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter name">
+                                <input type="email" placeholder="Enter email">
+                                <textarea rows="5" placeholder="Your Comment">
+                                </textarea>
+                               
+                                <button type="sumbit" class="hero-btn red-btn">POST COMMENT</button>
+                            </form>
+                        </div>
+      </section>
+      <br>
+
+
+      <!--------Footer------>
+      <section class="footer">
+          <h4>About us</h4>
+          <p> For more inforamtion about us get-in-touch with us in the followings</p>
+
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by Keerthika Shanmuganandam</p>
+      </section>
+
+
+
+      <!--------Javascript for Toggle Menu------>
+
+      <script> 
+
+          var navLinks = document.getElementById("navLinks");
+
+          function showMenu(){
+              navLinks.style.right ="0";
+          }
+
+          function hideMenu(){
+              navLinks.style.right ="-200px";
+          }
+
+
+      </script>
+    
+</body>
+</html>
